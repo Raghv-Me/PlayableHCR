@@ -172,7 +172,7 @@ class Camera{
 }
 function FormGround(){
     '838,977,100'
-    let seed = 113||0||floor(random(1000))
+    let seed =  (random()<0.4) ? 1000:ceil(random(1000))
     if (ground.length!=0){
         ground.forEach(item=>{
             item.destroy()
