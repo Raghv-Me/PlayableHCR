@@ -240,10 +240,10 @@ function keyReleased(){
 }
 function mousePressed(){
     // console.log(device)
-    if (device == 'desktop'||device == 'mobile' || device == 'tablet'){
+    
     if (mouseX<canvas.width/2) ke = -1
     else ke = 1
-    }
+    
     // console.log(ke)
 
 }
