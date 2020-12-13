@@ -22,7 +22,7 @@ class Car{
         this.deadCount =  0
         this.det.dead =false
         let vectors = [ ]
-        let cham = 3
+        let cham = 7
         vectors.push(createVector(- (this.w/2 - cham),-this.h/2))
         vectors.push(createVector((this.w/2 - cham),- this.h/2))
         vectors.push(createVector(this.w/2,- (this.h/2 - cham)))
